@@ -1,12 +1,17 @@
-name: "Yay internet!"
+name: "Yiying Wu"
 output_dir: "."
 navbar:
   title: "Home"
   right:
+    - text: "About"
+      href: about.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:yw3996@cumc.columbia.edu
+    - icon: fa-brands fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/yiying-wu-9a0bab251/
     - icon: fa-github fa-lg
       href: http://github.com/wuyiying2018/
 output:
   html_document:
-    theme: cerulean
+    theme: lumen
+    css: styles.css

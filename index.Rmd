@@ -2,9 +2,11 @@
 title: "Plotly and `flexdashboard`"
 author: "Yiying Wu"
 date: "2023-10-24"
-output: html_document:
-  toc: true
-  toc_float: true
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cosmo
 ---
 
 # Plotly
